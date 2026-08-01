@@ -1,0 +1,6 @@
+{
+  "ProjectType": "Process",
+  "Name": "HA CheckOutDemo V2",
+  "Description": "Blank Process",
+  "MainFile": "Main.xaml"
+}

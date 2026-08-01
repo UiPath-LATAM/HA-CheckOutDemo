@@ -1,0 +1,233 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="763,384" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="480,360" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="IfNotOpen" ScopeGuid="7d0ba3b2-8660-466b-aa9d-f998ddcd6a99">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="480,288" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'First name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="7d0ba3b2-8660-466b-aa9d-f998ddcd6a99" Text="Gheorghe Cosmin" Timeout="2" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="healingagent.z6.web.core.windows.net/index-1.html" ContentHash="k2-ARcuffUCylHtd4q2X8g" DesignTimeRectangle="496, 487, 289, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='firstName' tag='INPUT' type='text' class='form-control' aaname='First name' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="edee17f5-1a47-4972-b949-b775abe81418" InformativeScreenshot="ce7ecf3e3a248c03cf744bfc2cb93295.png" IsResponsive="True" Reference="7YitGkzYy0GPC6XvnV6TFw/pcqAHvUqv0aL_0UVfZ224A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout · UiPath' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="496, 455, 73, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='First name' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='First name' /&gt;" Guid="80caa17d-0d55-444b-9e03-57ccc9648e37" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="Single" DisplayName="Type Into 'Last name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="7d0ba3b2-8660-466b-aa9d-f998ddcd6a99" Text="Stan" Timeout="2" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="healingagent.z6.web.core.windows.net/index-1.html" ContentHash="xQ2tJZPMOEyEv-TB9FGogA" DesignTimeRectangle="815, 487, 290, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='lastName' tag='INPUT' type='text' class='form-control' aaname='Last name' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="21dba793-cc5f-4ecb-b7cd-80e9e266b1e5" InformativeScreenshot="810f6b97b60a34bea4a97e39fb89afb7.png" IsResponsive="True" Reference="7YitGkzYy0GPC6XvnV6TFw/7t-IVLqzBkaa_EDvsxS82A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout · UiPath' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="815, 455, 72, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Last name' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Last name' /&gt;" Guid="1a4df335-8ba0-4227-a1f7-0cfccdbc252f" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT username'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="7d0ba3b2-8660-466b-aa9d-f998ddcd6a99" Text="gheorghe.stan@uipath.com" Timeout="2" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="healingagent.z6.web.core.windows.net/index-4.html" ContentHash="JYG4BSSR0EK-rxV-kd-JYQ" DesignTimeRectangle="381, 406, 212, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='username' tag='INPUT' type='text' class='' placeholder='john.doe' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="68dffcd9-93c5-49fa-9373-5a5259b22abe" InformativeScreenshot="f6f0fee5af89c90017822753d4f0fce0.png" Reference="7YitGkzYy0GPC6XvnV6TFw/i08xraEPREahuhhdkAXmOg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UIPath Store Checkout' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="7d0ba3b2-8660-466b-aa9d-f998ddcd6a99" Text="Sales100" Timeout="2" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="healingagent.z6.web.core.windows.net/index-4.html" ContentHash="EWB9ykR6WkmUOY_skEiFKA" DesignTimeRectangle="1005, 703, 453, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl class='' tag='INPUT' type='text' placeholder='PROMO CODE' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b536ce29-10f9-4ef3-b65d-7ba014c8206d" InformativeScreenshot="afdfef68ad71ba26d9923116905b369d.png" Reference="7YitGkzYy0GPC6XvnV6TFw/umh-kKUV20-yM3qEVsSMTA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UIPath Store Checkout' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'REDEEM'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7d0ba3b2-8660-466b-aa9d-f998ddcd6a99" Timeout="2" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="healingagent.z6.web.core.windows.net/index-1.html" ContentHash="mojkxcN4M0-ZaoDWd8nZdg" DesignTimeRectangle="1333, 832, 83, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn btn-secondary' aaname='Redeem' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Redeem' /&gt;" Guid="f4f88a8d-3c4e-4a86-9ec2-f02baa87638b" InformativeScreenshot="0171023b42f2f41da0ff984e5cf3efdb.png" Reference="7YitGkzYy0GPC6XvnV6TFw/ZsAjDtL_x0K9aYAmbr1aJg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Checkout · UiPath' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1056" BrowserType="Chrome" ContentHash="ly03O1EkUUWXIwztFZ5hUQ" IconBase64="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" sap2010:WorkflowViewState.IdRef="TargetApp_1" InformativeScreenshot="f9bdc2116bcba4e7a919dd8a93a1a500.jpg" Reference="7YitGkzYy0GPC6XvnV6TFw/pEPrs-KEA0OmEt0Til4dyA" Selector="&lt;html app='chrome.exe' title='UIPath Store Checkout' /&gt;" Url="https://healingagent.z6.web.core.windows.net/index-4.html" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
